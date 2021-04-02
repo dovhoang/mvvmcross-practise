@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{6A128ECD-9190-449A-8F2A-23BCA7D9BB6C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KittenView.Droid/Resources/layout/item_kitten.xml">
+    <Files>
+      <File FileName="KittenView.Droid/Resources/layout/FirstView.xml" Line="22" Column="53" />
+      <File FileName="KittenView.Droid/Resources/layout/item_kitten.xml" Line="38" Column="41" />
+      <File FileName="KittenView.Core/ViewModels/FirstViewModel.cs" Line="114" Column="10" />
+      <File FileName="KittenView.Droid/Views/FirstView.cs" Line="20" Column="13" />
+      <File FileName="KittenView.Core/Services/DataService.cs" Line="30" Column="42" />
+      <File FileName="KittenView.Core/Services/IDataService.cs" Line="11" Column="31" />
+      <File FileName="KittenView.Droid/Resources/layout/SecondView.xml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KittenView" expanded="True">
+            <Node name="KittenView.Core" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Converters" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="KittenView.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True">
+                  <Node name="item_kitten.xml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.KittenView.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ND3X505C104200108" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

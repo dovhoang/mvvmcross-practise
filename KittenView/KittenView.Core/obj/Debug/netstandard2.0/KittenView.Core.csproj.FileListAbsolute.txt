@@ -1,0 +1,9 @@
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/bin/Debug/netstandard2.0/KittenView.Core.deps.json
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/bin/Debug/netstandard2.0/KittenView.Core.dll
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/bin/Debug/netstandard2.0/KittenView.Core.pdb
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/Debug/netstandard2.0/KittenView.Core.csprojAssemblyReference.cache
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/Debug/netstandard2.0/KittenView.Core.AssemblyInfoInputs.cache
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/Debug/netstandard2.0/KittenView.Core.AssemblyInfo.cs
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/Debug/netstandard2.0/KittenView.Core.csproj.CoreCompileInputs.cache
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/Debug/netstandard2.0/KittenView.Core.dll
+/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/Debug/netstandard2.0/KittenView.Core.pdb

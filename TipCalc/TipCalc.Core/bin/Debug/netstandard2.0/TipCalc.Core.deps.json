@@ -1,0 +1,128 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "TipCalc.Core/1.0.0": {
+        "dependencies": {
+          "MvvmCross": "5.6.3",
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "TipCalc.Core.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross/5.6.3": {
+        "dependencies": {
+          "MvvmCross.Binding": "5.6.3",
+          "MvvmCross.Core": "5.6.3"
+        }
+      },
+      "MvvmCross.Binding/5.6.3": {
+        "dependencies": {
+          "MvvmCross.Core": "5.6.3"
+        },
+        "runtime": {
+          "lib/net45/MvvmCross.Binding.Wpf.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          },
+          "lib/net45/MvvmCross.Binding.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          },
+          "lib/net45/MvvmCross.Localization.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          }
+        }
+      },
+      "MvvmCross.Core/5.6.3": {
+        "dependencies": {
+          "MvvmCross.Platform": "5.6.3"
+        },
+        "runtime": {
+          "lib/net45/MvvmCross.Core.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          },
+          "lib/net45/MvvmCross.Wpf.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          }
+        }
+      },
+      "MvvmCross.Platform/5.6.3": {
+        "runtime": {
+          "lib/net45/MvvmCross.Platform.Wpf.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          },
+          "lib/net45/MvvmCross.Platform.dll": {
+            "assemblyVersion": "5.6.3.0",
+            "fileVersion": "5.6.3.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TipCalc.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmCross/5.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HdElHh4oxJ4nxBCYkEShEG0+f92xyJXmvTNLY36WUibzf53WX4S9pT+RGvQ3kod73QXkPSV6oQfuL4r7vi1btQ==",
+      "path": "mvvmcross/5.6.3",
+      "hashPath": "mvvmcross.5.6.3.nupkg.sha512"
+    },
+    "MvvmCross.Binding/5.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mKFgZFPS6ewv3TxFoM06AGPJzV3CGScxTP38LQfsTw60JeYGTyUeAdn4qWkg4i9GEXay99x8TG5VguKRTOmFNA==",
+      "path": "mvvmcross.binding/5.6.3",
+      "hashPath": "mvvmcross.binding.5.6.3.nupkg.sha512"
+    },
+    "MvvmCross.Core/5.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8STYOE+DqXGMTCNYHkanRQIvZdmngw4TJsj1pWwIHESoMdLQsNDrWTgaLBwbzeNxa8KAFxYXO6oso07y5yl2RA==",
+      "path": "mvvmcross.core/5.6.3",
+      "hashPath": "mvvmcross.core.5.6.3.nupkg.sha512"
+    },
+    "MvvmCross.Platform/5.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SplNPXXtx47V5G3whVYDz71BCjNVEvHNZxY+m0lLX4hDm8YnXiUk3oZddzDg7FG72WIvV1P4mCaOPlI3fU6+WQ==",
+      "path": "mvvmcross.platform/5.6.3",
+      "hashPath": "mvvmcross.platform.5.6.3.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    }
+  }
+}

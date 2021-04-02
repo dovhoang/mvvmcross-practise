@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/fcs/Projects/PhoneWord/test/test.csproj": {}
+  },
+  "projects": {
+    "/Users/fcs/Projects/PhoneWord/test/test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fcs/Projects/PhoneWord/test/test.csproj",
+        "projectName": "test",
+        "projectPath": "/Users/fcs/Projects/PhoneWord/test/test.csproj",
+        "packagesPath": "/Users/fcs/.nuget/packages/",
+        "outputPath": "/Users/fcs/Projects/PhoneWord/test/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/fcs/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Droid/KittenView.Droid.csproj": {}
+  },
+  "projects": {
+    "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/KittenView.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/KittenView.Core.csproj",
+        "projectName": "KittenView.Core",
+        "projectPath": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/KittenView.Core.csproj",
+        "packagesPath": "/Users/fcs/.nuget/packages/",
+        "outputPath": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/fcs/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Droid/KittenView.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Droid/KittenView.Droid.csproj",
+        "projectName": "KittenView.Droid",
+        "projectPath": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Droid/KittenView.Droid.csproj",
+        "packagesPath": "/Users/fcs/.nuget/packages/",
+        "outputPath": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Droid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/fcs/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/KittenView.Core.csproj": {
+                "projectPath": "/Users/fcs/Projects/xamarin-android-practice/KittenView/KittenView.Core/KittenView.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "MvvmCross.Plugin.DownloadCache": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "MvvmCross.Plugin.File": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

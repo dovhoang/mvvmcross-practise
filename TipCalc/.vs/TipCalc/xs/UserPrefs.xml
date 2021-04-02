@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{8F23D6DE-6E92-4D02-BD3C-F899D53F1B1E}|Default">
+  <MonoDevelop.Ide.ItemProperties.TipCalc.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_10_API_25" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TipCalc.Core/ViewModels/TipViewModel.cs">
+    <Files>
+      <File FileName="TipCalc.Droid/Setup.cs" Line="9" Column="6" />
+      <File FileName="TipCalc.Droid/Views/SecondView.cs" Line="1" Column="1" />
+      <File FileName="TipCalc.Droid/Views/TipView.cs" Line="19" Column="33" />
+      <File FileName="TipCalc.Droid/Resources/layout/SecondView.axml" />
+      <File FileName="TipCalc.Droid/Resources/layout/TipView.axml" Line="11" Column="5" />
+      <File FileName="TipCalc.Droid/PlusOneValueConverter.cs" />
+      <File FileName="TipCalc.Core/App.cs" />
+      <File FileName="TipCalc.Core/ViewModels/SecondViewModel.cs" />
+      <File FileName="TipCalc.Core/ViewModels/TipViewModel.cs" Line="19" Column="107" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TipCalc" expanded="True">
+            <Node name="TipCalc.Core" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="TipViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="TipCalc.Droid" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{522EE152-828D-45E6-9D78-87E33779ED7C}|Default">
+  <MonoDevelop.Ide.ItemProperties.test AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.tablet_420-dpi_8in_nougat_7_1_-_api_25" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/PhoneTranslator.cs">
+    <Files>
+      <File FileName="test/MainActivity.cs" Line="39" Column="54" />
+      <File FileName="test/Resources/layout/activity_main.xml" />
+      <File FileName="test/SecondActivity.cs" />
+      <File FileName="test/PhoneTranslator.cs" Line="12" Column="38" />
+      <File FileName="test/Properties/AndroidManifest.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test" expanded="True">
+            <Node name="test" expanded="True">
+              <Node name="PhoneTranslator.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
