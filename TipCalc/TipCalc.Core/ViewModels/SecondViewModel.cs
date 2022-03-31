@@ -1,44 +1,49 @@
 ﻿using System;
+using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 
 namespace TipCalc.Core.ViewModels
 {
-    public class SecondViewModel : MvxViewModel
+    public class SecondViewModel : MvxViewModel<(double subtotal, double tip)>
     {
         private readonly IMvxNavigationService _navigationService;
 
         public SecondViewModel(IMvxNavigationService navigationService)
         {
             _navigationService = navigationService;
-            _id = 1;
-            _name = "hoang";
+            _subtotal = 1;
+            _tip = 0.5;
             _rememberMe = true;
+            CloseCommand = new MvxAsyncCommand(async () => await _navigationService.Close(this));
         }
-        public SecondViewModel(int id, string name)
+        
+        public override void Prepare((double subtotal, double tip) parameter)
         {
-            _id = id;
-            _name = name;
+            _subtotal = parameter.subtotal;
+            _tip = parameter.tip;
         }
-        private int _id;
-        string _name;
+        
+        
+        private double _subtotal;
+        private double _tip;
 
-        public int Id
+        public double Subtotal
         {
-            get => _id;
+            get => _subtotal;
             set
             {
-                _id = value;
-                RaisePropertyChanged(() => Id);
+                _subtotal = value;
+                RaisePropertyChanged(() => Subtotal);
             }
         }
-        public string Name
+        public double Tip
         {
-            get => _name;
+            get => _tip;
             set
             {
-                _name = value;
-                RaisePropertyChanged(() => Name);
+                _tip = value;
+                RaisePropertyChanged(() => Tip);
             }
         }
 
@@ -54,5 +59,7 @@ namespace TipCalc.Core.ViewModels
             get => _num;
             set => SetProperty(ref _num, value);
         }
+        
+        public IMvxAsyncCommand CloseCommand { get; private set; }
     }
 }
