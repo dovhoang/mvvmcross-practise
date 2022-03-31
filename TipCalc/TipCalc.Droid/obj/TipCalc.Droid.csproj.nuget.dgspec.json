@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fcs/Projects/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj": {}
+    "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj": {}
   },
   "projects": {
-    "/Users/fcs/Projects/TipCalc/TipCalc.Core/TipCalc.Core.csproj": {
+    "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/TipCalc.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fcs/Projects/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
+        "projectUniqueName": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
         "projectName": "TipCalc.Core",
-        "projectPath": "/Users/fcs/Projects/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
-        "packagesPath": "/Users/fcs/.nuget/packages/",
-        "outputPath": "/Users/fcs/Projects/TipCalc/TipCalc.Core/obj/",
+        "projectPath": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
+        "packagesPath": "/Users/doviet-hoang/.nuget/packages/",
+        "outputPath": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/fcs/.config/NuGet/NuGet.Config"
+          "/Users/doviet-hoang/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -40,9 +40,10 @@
           "dependencies": {
             "MvvmCross": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.4.2, )"
             },
             "NETStandard.Library": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.0, )"
             }
@@ -57,57 +58,61 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/fcs/Projects/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj": {
+    "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fcs/Projects/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj",
+        "projectUniqueName": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj",
         "projectName": "TipCalc.Droid",
-        "projectPath": "/Users/fcs/Projects/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj",
-        "packagesPath": "/Users/fcs/.nuget/packages/",
-        "outputPath": "/Users/fcs/Projects/TipCalc/TipCalc.Droid/obj/",
+        "projectPath": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Droid/TipCalc.Droid.csproj",
+        "packagesPath": "/Users/doviet-hoang/.nuget/packages/",
+        "outputPath": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Droid/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/fcs/.config/NuGet/NuGet.Config"
+          "/Users/doviet-hoang/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid11.0"
+          "monoandroid90"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid11.0": {
+          "monoandroid90": {
             "projectReferences": {
-              "/Users/fcs/Projects/TipCalc/TipCalc.Core/TipCalc.Core.csproj": {
-                "projectPath": "/Users/fcs/Projects/TipCalc/TipCalc.Core/TipCalc.Core.csproj"
+              "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/TipCalc.Core.csproj": {
+                "projectPath": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/TipCalc.Core.csproj"
               }
             }
           }
         }
       },
       "frameworks": {
-        "monoandroid11.0": {
+        "monoandroid90": {
           "dependencies": {
             "MvvmCross": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.4.2, )"
             },
-            "Xamarin.AndroidX.AppCompat": {
+            "MvvmCross.Droid.Support.V7.RecyclerView": {
               "target": "Package",
-              "version": "[1.2.0.5, )"
+              "version": "[6.4.2, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Serilog.Sinks.Xamarin": {
+              "target": "Package",
+              "version": "[0.1.37, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
-            },
-            "Xamarin.Google.Android.Material": {
-              "target": "Package",
-              "version": "[1.0.0.1, )"
             }
           }
         }

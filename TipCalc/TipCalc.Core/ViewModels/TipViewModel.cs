@@ -2,8 +2,9 @@
 using System.Threading.Tasks;
 using System;
 using System.Collections.Generic;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Core.Navigation;
+using MvvmCross.ViewModels;
+using MvvmCross.Navigation;
+using MvvmCross.Commands;
 
 namespace TipCalc.Core.ViewModels
 {

@@ -7,3 +7,13 @@
 /Users/fcs/Projects/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.csproj.CoreCompileInputs.cache
 /Users/fcs/Projects/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.dll
 /Users/fcs/Projects/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.pdb
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/bin/Debug/netstandard2.0/TipCalc.Core.deps.json
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/bin/Debug/netstandard2.0/TipCalc.Core.dll
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/bin/Debug/netstandard2.0/TipCalc.Core.pdb
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.csproj.AssemblyReference.cache
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.AssemblyInfoInputs.cache
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.AssemblyInfo.cs
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.csproj.CoreCompileInputs.cache
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.dll
+/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/obj/Debug/netstandard2.0/TipCalc.Core.pdb

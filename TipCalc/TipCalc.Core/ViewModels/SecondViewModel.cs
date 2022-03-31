@@ -1,6 +1,6 @@
 ﻿using System;
-using MvvmCross.Core.Navigation;
-using MvvmCross.Core.ViewModels;
+using MvvmCross.Navigation;
+using MvvmCross.ViewModels;
 
 namespace TipCalc.Core.ViewModels
 {

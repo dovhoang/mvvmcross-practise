@@ -3,8 +3,8 @@ using Android.OS;
 using Android.Widget;
 using TipCalc.Core.ViewModels;
 using MvvmCross.Binding.BindingContext;
-using MvvmCross.Droid.Views;
-using MvvmCross.Binding.Droid;
+using MvvmCross.Platforms.Android.Views;
+using MvvmCross.Platforms.Android.Binding;
 
 namespace TipCalc.Droid.Views
 {

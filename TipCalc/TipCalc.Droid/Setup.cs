@@ -1,20 +1,31 @@
-﻿using Android.Content;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Droid.Platform;
+﻿using System.Collections.Generic;
+using System.Reflection;
+using MvvmCross.Droid.Support.V7.RecyclerView;
+using MvvmCross.Logging;
+using MvvmCross.Platforms.Android.Core;
+using Serilog;
 using TipCalc.Core;
 
 namespace TipCalc.Droid
 {
-    public class Setup : MvxAndroidSetup
+    public class Setup : MvxAndroidSetup<App>
     {
-        public Setup(Context applicationContext)
-        : base(applicationContext)
-        {
-        }
+        protected override IEnumerable<Assembly> AndroidViewAssemblies =>
+            new List<Assembly>(base.AndroidViewAssemblies)
+            {
+                typeof(MvxRecyclerView).Assembly
+            };
 
-        protected override IMvxApplication CreateApp()
+        public override MvxLogProviderType GetDefaultLogProviderType()
+            => MvxLogProviderType.Serilog;
+
+        protected override IMvxLogProvider CreateLogProvider()
         {
-            return new App();
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .WriteTo.AndroidLog()
+                .CreateLogger();
+            return base.CreateLogProvider();
         }
     }
 }

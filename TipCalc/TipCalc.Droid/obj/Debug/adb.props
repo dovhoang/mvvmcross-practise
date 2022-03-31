@@ -1,2 +1,2 @@
-AdbTarget=-s ND3X505C104200108
+AdbTarget=-s emulator-5556
 AdbOptions=

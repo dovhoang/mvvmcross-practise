@@ -12,7 +12,7 @@ public abstract class MvxIntentService
 		__md_methods = 
 			"n_onHandleIntent:(Landroid/content/Intent;)V:GetOnHandleIntent_Landroid_content_Intent_Handler\n" +
 			"";
-		mono.android.Runtime.register ("MvvmCross.Droid.Services.MvxIntentService, MvvmCross.Droid", MvxIntentService.class, __md_methods);
+		mono.android.Runtime.register ("MvvmCross.Platforms.Android.Services.MvxIntentService, MvvmCross", MvxIntentService.class, __md_methods);
 	}
 
 
@@ -20,7 +20,7 @@ public abstract class MvxIntentService
 	{
 		super (p0);
 		if (getClass () == MvxIntentService.class)
-			mono.android.TypeManager.Activate ("MvvmCross.Droid.Services.MvxIntentService, MvvmCross.Droid", "System.String, mscorlib", this, new java.lang.Object[] { p0 });
+			mono.android.TypeManager.Activate ("MvvmCross.Platforms.Android.Services.MvxIntentService, MvvmCross", "System.String, mscorlib", this, new java.lang.Object[] { p0 });
 	}
 
 
@@ -28,7 +28,7 @@ public abstract class MvxIntentService
 	{
 		super ();
 		if (getClass () == MvxIntentService.class)
-			mono.android.TypeManager.Activate ("MvvmCross.Droid.Services.MvxIntentService, MvvmCross.Droid", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("MvvmCross.Platforms.Android.Services.MvxIntentService, MvvmCross", "", this, new java.lang.Object[] {  });
 	}
 
 

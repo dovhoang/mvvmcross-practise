@@ -1,46 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hkOThQ3FCiE+Fq1RXoA2Ha8RnounkKdwJ2MSVXfpBrK/iKpztVvz07NCIPn90+4pPqF08IDZURVH5zGMhAXQQQ==",
+  "dgSpecHash": "TcXoxbZk2Mf5y8Omo5gtgQKwLOmREuIM9I2bHI3/T0IPIbSAA0gNwyM4jQhdGkIJzWnavWKVG1JIDewMYzidcQ==",
   "success": true,
-  "projectFilePath": "/Users/fcs/Projects/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
+  "projectFilePath": "/Users/doviet-hoang/Projects/mvvmcross-practise/TipCalc/TipCalc.Core/TipCalc.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/fcs/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/fcs/.nuget/packages/mvvmcross/5.6.3/mvvmcross.5.6.3.nupkg.sha512",
-    "/Users/fcs/.nuget/packages/mvvmcross.binding/5.6.3/mvvmcross.binding.5.6.3.nupkg.sha512",
-    "/Users/fcs/.nuget/packages/mvvmcross.core/5.6.3/mvvmcross.core.5.6.3.nupkg.sha512",
-    "/Users/fcs/.nuget/packages/mvvmcross.platform/5.6.3/mvvmcross.platform.5.6.3.nupkg.sha512",
-    "/Users/fcs/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512"
+    "/Users/doviet-hoang/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/doviet-hoang/.nuget/packages/mvvmcross/6.4.2/mvvmcross.6.4.2.nupkg.sha512",
+    "/Users/doviet-hoang/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MvvmCross.Binding 5.6.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MvvmCross.Binding",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MvvmCross.Core 5.6.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MvvmCross.Core",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'MvvmCross.Platform 5.6.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "MvvmCross.Platform",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }

@@ -2,7 +2,7 @@ package crc6457320bc94db37dfb;
 
 
 public class SecondView
-	extends crc64287656e9d5cefcc9.MvxActivity_1
+	extends crc6466d8e86b1ec8bfa8.MvxActivity_1
 	implements
 		mono.android.IGCUserPeer
 {
